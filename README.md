@@ -1,5 +1,5 @@
 ![image](https://github.com/DVALENASCIMENTO/meu_primeiro_portfolio/assets/105137007/412edbf8-13cc-480e-a3e7-2707dd18cef0)
-Portfólio de Diego Nascimento - https://dvalenascimento.github.io/meu_primeiro_portfolio/
+Portfólio de Diego Nascimento - https://dvalenascimento.github.io/portf-lio_diego_nascimento1/
 
 Este é o repositório do portfólio online de Diego Nascimento, um desenvolvedor web apaixonado por transformar ideias em realidade digital. Neste portfólio, Diego apresenta seus projetos, habilidades e informações de contato.
 
