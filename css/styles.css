@@ -1,0 +1,197 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #08324e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif; /* Fonte para o cabeçalho */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9f9f9;
+}
+
+#about p{
+    text-align: justify;
+}
+
+#about img {
+    width: 300px; /* Defina a largura desejada */
+    height: 300px; /* Defina a altura desejada */
+    border-radius: 50%; /* Define a borda como um círculo */
+    display: block; /* Garante que a borda circular se aplique corretamente */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+#projects {
+    background-color: #e6e6e6;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.project-card h3 {
+    text-align: center; /* Centraliza o título */
+}
+
+.project-card p {
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #08324e;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para os projetos */
+#projects {
+    background-color: #e6e6e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Para distribuir os projetos igualmente */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+#projects h2 {
+    width: 100%; /* Define a largura total para o título */
+    font-family: 'Montserrat', sans-serif; /* Fonte para o título "Projetos" */
+}
+
+.project-card {
+    width: 40%; /* Defina a largura do cartão do projeto */
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    max-width: 100%; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para os botões do projeto */
+.project-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.deploy-button, .github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.github-button {
+    background-color: #333;
+}
+
+.deploy-button:hover, .github-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para os links do rodapé */
+footer .social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .social-links li a {
+    color: #3daaf3; /* Cor principal */
+    text-decoration: none;
+    font-size: 18px; /* Tamanho de fonte maior para os links do rodapé */
+}
+
+footer .social-links li a:hover {
+    color: #f6f860; /* Cor de destaque terciária */
+}
+
+/* Mídia queries para telas menores */
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 30px;
+    }
+    #about img {
+        width: 200px;
+        height: 200px;
+    }
+    .project-card {
+        width: 80%;
+    }
+}
+
+/* Mídia queries para telas ainda menores */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 20px;
+    }
+    #about img {
+        width: 150px;
+        height: 150px;
+    }
+    .project-card {
+        width: 100%;
+    }
+}
