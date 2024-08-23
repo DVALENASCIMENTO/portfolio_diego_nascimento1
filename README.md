@@ -31,7 +31,7 @@ Projetos:
 - Descrição: Aplicação de temporizador Pomodoro para ajudar na gestão do tempo e na melhoria da produtividade.
 - Tecnologias: HTML, CSS e JavaScript.
 - Repositório GitHub: https://github.com/DVALENASCIMENTO/tasktime_pro
-- Deploy: https://dvalenascimento.github.io/tasktime_pro/
+- Deploy: https://dvalenascimento.github.io/taskTime_Pro.Project/
 
 
 ° Harmonize-se
