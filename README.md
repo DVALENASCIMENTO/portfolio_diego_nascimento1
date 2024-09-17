@@ -39,7 +39,7 @@ Projetos:
 - Descrição: Site para promover o equilíbrio interior e o bem-estar físico, mental, emocional e espiritual.
 - Tecnologias: HTML, CSS e JavaScript.
 - Repositório GitHub: https://github.com/DVALENASCIMENTO/harmonize-se_project/tree/main 
-- Deploy: https://dvalenascimento.github.io/harmonize-se_project/index.html
+- Deploy: https://dvalenascimento.github.io/harmonize-se_page_web/
 
 
 ° Contato
